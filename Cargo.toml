@@ -1,0 +1,12 @@
+[package]
+name = "yens"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+priority-queue = "1.2.3"
+ordered-float = { version = "3.0", default-features = false }
+libmath = "0.2.1"
+float-cmp = "0.9.0"
